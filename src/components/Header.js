@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 const Header = () => {
   return (
     <motion.div 
-        className='flex md:flex-row-reverse flex-col md:w-4/5'
+        className='flex md:flex-row-reverse flex-col md:w-4/5 md:max-w-7xl'
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
